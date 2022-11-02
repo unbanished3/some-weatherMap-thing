@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+        <header class="header">
+            <h1>Weather Map</h1>
+        </header>
+        <div class="search">
+            <input type="text" placeholder="Введите название города" id="input_feld" class="field">
+            <input type="button" value="Добавить" onclick="add()" class="button">
+        </div>
+        <div>
+            <table class="table" id="table">
+                <thead>
+                    <td>Город</td>
+                    <td>Температура</td>
+                    <td>Атмосферное давление</td>
+                    <td></td>
+                </thead>
+            </table>
+        </div>
+    </body>   
+</html>
+
+<script src="script.js"></script>
